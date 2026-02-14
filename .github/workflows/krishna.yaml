@@ -1,0 +1,13 @@
+name: krishna
+
+on:
+ push:
+ workflow_dispatch:
+
+jobs:
+ build:
+  runs-on: macos-latest
+  steps:
+   - name: "krishna"
+     run: echo "hare krishna"
+ 
